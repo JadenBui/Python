@@ -1,0 +1,39 @@
+{%extends "pythonweb.html"%}
+{%block content%}
+<style>
+    .skill-row{
+    width: 50%;
+    margin: auto;
+    }
+    .img1{
+    width: 15%;
+    height: 15%;
+    float: right;
+    margin-left: 2rem;
+    }
+
+    .img2{
+    width: 15%;
+    height: 15%;
+    float: left;
+    margin-right: 2rem;
+    }
+</style>
+<div class="skills">
+      <h2 style="margin: 3rem auto 3rem auto; font-weight: bold;">My Skills</h2>
+      <div style="text-align: right;" class="skill-row">
+        <img class="img1" src="static/webpage.png" alt="logo">
+        <h3>Web Design</h3>
+        <p>From the lesson I had from school and self-learning, I'm capable of producing a basic functional websites to
+          express my hobbies.</p>
+      </div>
+      <br>
+      <div style="text-align: left;" class="skill-row">
+        <img class="img2" src="static/program.png" alt="logo">
+        <h3>General Programming</h3>
+        <p>I've learn couples of programming language, including Java, C, C#.</p>
+      </div>
+      <br>
+      <br>
+ </div>
+{%endblock%}
